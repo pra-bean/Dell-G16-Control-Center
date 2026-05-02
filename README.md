@@ -7,11 +7,10 @@
 A lightweight, Linux-friendly control panel for Dell G16 series laptops.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 </div>
 
-## 📖 Overview
+## Overview
 
 **G16 Control Center** provides essential system control features for Dell G16 laptops running Linux, including performance mode switching, real-time CPU/GPU/fan monitoring, and system information—all without heavy OEM bloat.
 
@@ -19,9 +18,9 @@ A lightweight, Linux-friendly control panel for Dell G16 series laptops.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🚀 Platform Profile Switching
+### Platform Profile Switching
 Switch between different performance profiles:
 - **Quiet Mode** - Reduced fan noise and power consumption
 - **Balanced Mode** - Optimal balance between performance and efficiency
@@ -36,14 +35,14 @@ Real-time system monitoring updated every second:
 - **GPU** - Temperature, usage percentage, and clock speed
 - **Fans** - RPM readings for all system fans
 
-### 💻 System Information
+### System Information
 View essential hardware details:
 - CPU core count and model
 - GPU model detection
 - RAM capacity
 - Kernel version
 
-### 🔔 System Tray Integration
+### System Tray Integration
 - Persistent tray icon for quick access
 - Double-click to open the control center
 - Right-click menu with Open/Quit options
@@ -51,7 +50,7 @@ View essential hardware details:
 
 ---
 
-## � Requirements
+## Requirements
 
 ### System Dependencies
 ```bash
@@ -65,7 +64,7 @@ sudo apt install python3 python3-pip python3-venv policykit-1
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -91,7 +90,7 @@ python3 gui.py
 
 ---
 
-## 🔐 Enabling Performance Mode Switching
+## Enabling Performance Mode Switching
 
 To enable profile switching without running the entire application as root:
 
@@ -135,7 +134,7 @@ Now you can switch performance modes without entering your password repeatedly.
 
 ---
 
-## 🖥️ Desktop Integration (Optional)
+## Desktop Integration (Optional)
 
 ### Install Application Icon
 ```bash
@@ -171,7 +170,7 @@ update-desktop-database ~/.local/share/applications/
 
 ---
 
-## � Project Structure
+## Project Structure
 
 ```
 Dell-G16-Control-Center/
@@ -190,7 +189,7 @@ Dell-G16-Control-Center/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
 
@@ -204,7 +203,7 @@ Dell-G16-Control-Center/
 
 ---
 
-## 🔒 Security & Permissions
+## Security & Permissions
 
 - **Profile switching** requires Polkit authentication (uses `pkexec`)
 - **System monitoring** uses standard Linux sensors (read-only access)
@@ -213,13 +212,13 @@ Dell-G16-Control-Center/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues.
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see below for details:
 
@@ -249,7 +248,7 @@ SOFTWARE.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built for the Dell G16 Linux community
 - Thanks to all contributors and testers
@@ -259,7 +258,5 @@ SOFTWARE.
 <div align="center">
 
 **[⬆ back to top](#g16-control-center)**
-
-Made with ❤️ for Dell G16 users
 
 </div>
